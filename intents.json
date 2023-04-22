@@ -1,0 +1,99 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "hello", 
+            "hey", 
+            "hi", 
+            "yo", 
+            "what's up"
+          ],
+        "responses": [
+          "Hello", 
+          "Hey!", 
+          "YO!", 
+          "What can i do?"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Appreciate it",
+          "You're the best",
+          "Thank you so much"
+        ],
+        "responses": [
+          "You're welcome! Glad I could help.",
+          "No problem! Always happy to assist.",
+          "My pleasure! Let me know if you need anything else.",
+          "Anytime! Don't hesitate to reach out if you have more questions."
+        ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "I need help",
+        "Can you help me",
+        "I'm stuck",
+        "Assistance required",
+        "Help me out"
+      ],
+      "responses": [
+        "Sure thing! What do you need help with?",
+        "Of course! What's the issue?",
+        "I'd be happy to help! What's going on?",
+        "No problem! Let me know what you need assistance with."
+      ]
+    },
+    {
+      "tag": "bot info",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What can you do?"
+      ],
+      "responses": [
+        "I'm a chatbot designed to assist you with your needs. Let me know how I can help.",
+        "I'm a conversational AI designed to assist you with any questions or concerns you have. How can I be of service?",
+        "I'm here to help you out! Let me know what you need assistance with.",
+        "I'm a chatbot programmed to provide support and assistance. What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Is it going to rain?",
+        "What's the forecast?",
+        "How's the weather today?",
+        "What's the temperature outside?"
+      ],
+      "responses": [
+        "I'm sorry, but I don't have access to the current weather information. You can check your local news or weather app for the latest updates.",
+        "Unfortunately, I don't have the ability to check the current weather conditions. You can try asking a virtual assistant or checking a weather website for the latest updates.",
+        "I'm not able to provide you with current weather information. However, you can try checking a weather app or website for the latest updates.",
+        "I'm sorry, but I'm not able to check the weather. You can try asking a virtual assistant or checking a weather website for the latest updates."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "Bye",
+        "See ya",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! It was nice talking to you.",
+        "See you later! Have a great day.",
+        "Talk to you soon! Take care.",
+        "Bye for now! Don't hesitate to reach out if you need anything else."
+      ]
+    }
+]}

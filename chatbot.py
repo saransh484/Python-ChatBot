@@ -11,11 +11,11 @@ from tensorflow import keras
 from keras.models import load_model
 
 Lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('/home/saransh/code/python/AI-Project/ChatBot/intents.json').read())
+intents = json.loads(open('assets/intents.json').read())
 
-words = pickle.load(open('words.pkl','rb'))
-classes = pickle.load(open('classes.pkl','rb'))
-model = load_model('chatbotmodel.h5')
+words = pickle.load(open('assets/words.pkl','rb'))
+classes = pickle.load(open('assets/classes.pkl','rb'))
+model = load_model('assets/chatbotmodel.h5')
 
 def clean_Sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)

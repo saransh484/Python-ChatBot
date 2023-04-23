@@ -2,7 +2,7 @@
 
 This project is a ChatBot with a Graphical User Interface (GUI) that uses the BART (Bidirectional and AutoRegressive Transformer) model for summarizing text. The ChatBot can respond to user input in natural language and provide a summary of any text entered by the user.
 
-> note! you need to provide API from huggingface in order to use BART
+> note! you need to provide API Key from huggingface in order to use BART
 
 ## Requirements
 
@@ -43,4 +43,6 @@ The ChatBot with GUI and BART Summarizer has the following features:
 
 This project was developed by me personal project. The BART summarizer was adapted from the Hugging Face Transformers library: https://huggingface.co/transformers/
 
+## Screenshot
 
+![](assets/Screenshot.png)
